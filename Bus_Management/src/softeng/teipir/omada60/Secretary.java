@@ -156,7 +156,7 @@ public class Secretary extends JFrame {
 		contentPane.add(btnUpdate);
 		
 		textField_loc = new JTextField();
-		textField_loc.setToolTipText("Values: Longtitude, Latitude");
+		textField_loc.setToolTipText("Insert Values: Longtitude, Latitude");
 		textField_loc.setText("0");
 		textField_loc.setColumns(10);
 		textField_loc.setBounds(424, 127, 86, 20);
