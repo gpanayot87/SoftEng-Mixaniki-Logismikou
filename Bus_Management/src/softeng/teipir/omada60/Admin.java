@@ -157,7 +157,8 @@ public class Admin extends JFrame {
 					String ssn = rs.getString("ssn");
 					String mail = rs.getString("Email");
 			
-					JTextField.setText(+name+last+addr+age+dln+pho+ssn+mail);
+					String txt2 = System.out.println(name+last+addr+age+dln+pho+ssn+mail);
+					JTextField.setText(txt2);
 			}
 			}
 		} catch (Exception e) {
